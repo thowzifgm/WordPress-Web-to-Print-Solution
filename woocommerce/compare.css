@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic,500,700,500italic,700italic,900,900italic&subset=latin,greek,greek-ext,cyrillic-ext,latin-ext,cyrillic,vietnamese);
+
+h1{
+    font-size: 18px;
+}
+table.compare-list tbody tr th{
+    min-width: 125px;
+    max-width: 125px;
+    border-bottom: 1px #d6d6d6 solid;
+    border-right: 1px #d6d6d6 solid;
+    border-left: 1px #d6d6d6 solid;
+    font-size: 15px;
+    font-weight: 500;
+    color: #444;
+}
+table.compare-list tbody tr td{
+    padding: 10px 15px;
+    border-bottom: 1px #d6d6d6 solid;
+    border-right: 1px #d6d6d6 solid;
+}
+table.compare-list tbody tr.remove td{
+    text-decoration: none;
+    text-align: center;
+    border-top: 1px #d6d6d6 solid;
+    border-bottom: 0;
+}
+table.compare-list tbody tr.remove th{
+    border-top: 1px #d6d6d6 solid;
+    border-bottom: none;
+}
+table.compare-list tbody tr.remove td a{
+    text-decoration: none;
+}
+table.compare-list tbody tr.remove td a:hover{
+    color: red;
+}
+table.compare-list tbody tr.image{
+    text-align: center;
+}
+table.compare-list tbody tr.title td{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;    
+}
+table.compare-list tbody tr.title th, table.compare-list tbody tr.image th, table.compare-list tbody tr.price th,
+table.compare-list tbody tr.title td, table.compare-list tbody tr.image td, table.compare-list tbody tr.price td{
+    border-bottom: none;
+}
+table.compare-list tbody tr.price td{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+}
+table.compare-list tbody tr.price td del span.amount{
+    color: #888;
+    padding-right: 5px;
+    border-right: 2px #888 solid;
+    font-weight: normal;
+}
+table.compare-list tbody tr.price td ins{
+    text-decoration: none;
+}
+table.compare-list tbody tr.image th, table.compare-list tbody tr.title th, table.compare-list tbody tr.price th{
+    text-indent: -999px;
+}
+table.compare-list tbody tr.repeated th{
+    text-indent: 0;
+    border-bottom: 1px #d6d6d6 solid;
+}
+table.compare-list tbody tr.repeated td{
+    border-bottom: 1px #d6d6d6 solid;   
+}
+table.compare-list tbody tr.add-to-cart td{
+    text-align: center;
+    padding-bottom: 20px;
+}
+table.compare-list tbody tr.add-to-cart th{
+    text-indent: -999px;
+    padding-bottom: 20px;  
+}
+table.compare-list tbody tr.add-to-cart td a{
+    text-decoration: none;
+}
+table.compare-list tbody tr.add-to-cart td a, table.compare-list tbody tr.add-to-cart td a span{
+    padding:8px 5px;
+    background: #d6d6d6;
+    text-transform: uppercase;
+    font-size: 12px; color: #444;
+    font-weight: 500;
+}
+table.compare-list tbody tr.stock td{
+    text-align: center;
+    color: #25bced;
+}
+#cboxLoadedContent h1{color: #04b591;}
+.compare-list .description p{ font-size: 12px; line-height: 20px;}
